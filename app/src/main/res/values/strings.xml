@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">MyApp</string>
+    <string name="news">News</string>
+    <string name="for_you">For you</string>
+    <string name="trending">Trending</string>
+    <string name="global">Global</string>
 </resources>
