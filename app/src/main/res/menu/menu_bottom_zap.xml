@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/mConversas"
         android:icon="@drawable/baseline_mode_comment"
         android:title="@string/conversas"
         app:showAsAction="ifRoom" />
     <item
-        android:id="@+id/mGlobal"
-        android:icon="@drawable/baseline_language"
-        android:title="@string/global"
+        android:id="@+id/mStatus"
+        android:icon="@drawable/baseline_update"
+        android:title="@string/status"
         app:showAsAction="ifRoom" />
     <item
-        android:id="@+id/mForyou"
-        android:icon="@drawable/baseline_star_rate"
-        android:title="@string/for_you"
+        android:id="@+id/mComunidades"
+        android:icon="@drawable/baseline_people_outline"
+        android:title="@string/comunidades"
         app:showAsAction="ifRoom" />
     <item
         android:id="@+id/mTrending"
