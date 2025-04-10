@@ -19,6 +19,9 @@
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:menu="@menu/menu_bottom_navi"
+        android:id="@+id/idBottomNavi"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
