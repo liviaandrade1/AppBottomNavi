@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+   <item android:title="Camera"
+       android:id="@+id/mCamera"
+       android:icon="@drawable/baseline_camera_alt"
+       app:showAsAction="ifRoom"/>
+    <item android:title="Menu"
+        android:id="@+id/mMenu"
+        android:icon="@drawable/baseline_menu"
+        app:showAsAction="ifRoom"/>
+
+</menu>
+
