@@ -17,8 +17,8 @@
         android:title="@string/comunidades"
         app:showAsAction="ifRoom" />
     <item
-        android:id="@+id/mTrending"
-        android:icon="@drawable/baseline_book"
-        android:title="@string/trending"
+        android:id="@+id/mLigações"
+        android:icon="@drawable/baseline_phone"
+        android:title="@string/ligações"
         app:showAsAction="ifRoom" />
 </menu>

@@ -13,7 +13,7 @@
         app:showAsAction="ifRoom" />
     <item
         android:id="@+id/mForyou"
-        android:icon="@drawable/baseline_star_rate"
+        android:icon="@color/cardview_shadow_start_color"
         android:title="@string/for_you"
         app:showAsAction="ifRoom" />
     <item

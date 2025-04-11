@@ -2,16 +2,117 @@
 <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/idBottomzap"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+   tools:menu="@menu/menu_bottom_navi"
+    >
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/menu_top_bar"
+     app:menu="@menu/menu_top_bar"
+        android:layout_marginLeft="329dp"
+        />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pesquisa"
+            app:startIconDrawable="@drawable/baseline_search"
+            android:drawablePadding="30sp"
+            app:boxCornerRadiusBottomEnd="25sp"
+            app:boxCornerRadiusTopEnd="25sp"
+            app:boxCornerRadiusBottomStart="25sp"
+            app:boxCornerRadiusTopStart="25sp"
+            android:layout_marginTop="78dp"
+            />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="69dp"
+        android:hint="Pergunte à Meta IA ou pesquise"
+        
+        android:padding="20dp"
+       />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        app:menu="@menu/menu_bottom_navi"
-        android:id="@+id/idBottomNavi"/>
+        app:menu="@menu/menu_bottom_zap"
+        android:id="@+id/idBottomNavi"
+       />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Whatsapp"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#389E0B"/>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

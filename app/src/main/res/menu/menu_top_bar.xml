@@ -4,11 +4,23 @@
    <item android:title="Camera"
        android:id="@+id/mCamera"
        android:icon="@drawable/baseline_camera_alt"
-       app:showAsAction="ifRoom"/>
-    <item android:title="Menu"
-        android:id="@+id/mMenu"
-        android:icon="@drawable/baseline_menu"
-        app:showAsAction="ifRoom"/>
+       app:showAsAction="always"/>
+    <item android:title="Novo Grupo"
+        app:showAsAction="never"
+        android:id="@+id/mNovogrupo"/>
+    <item android:title="Nova transmissão"
+        android:id="@+id/mTransmissão"
+        app:showAsAction="never"/>
+    <item android:title="Dispositivos conectados"
+        android:id="@+id/mDispositivos"
+        app:showAsAction="never"/>
+    <item android:title="Mensagens Favoritas"
+        android:id="@+id/mMensagensfavs"
+        app:showAsAction="never"/>
+    <item android:title="Configurações"
+        android:id="@+id/mConfigurações"
+        app:showAsAction="never"/>
 
 </menu>
+
 
